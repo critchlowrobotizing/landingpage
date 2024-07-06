@@ -9,30 +9,34 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     background-color:#1F2937;
     color:#F9FAF8;
     /* font-size: 24px; */
 }
 .logo{
     font-size: 24px;
-    text-align: center;
-    vertical-align: center;
     margin-left: 20px;
 }
-
 .nav{
     display:flex;  
 }
 .nav ul{
     display:flex;
     gap:20px;
-    align-items: center;
     margin-right: 20px;
 }
 
 .nav li{
     list-style: none;
     font-size: 24px;
+}
+
+.nav a{
+    text-decoration: none;
+    outline-color: transparent;
+    line-height: 3;
+    color:#F9FAF8;
 }
 
 /* SECTION 1 - Hero CSS*/
