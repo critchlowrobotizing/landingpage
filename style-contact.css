@@ -34,40 +34,39 @@ body{
     box-sizing: border-box;
   } */
   /*------ HEADER SECTION---*/
-  .header{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    background-color:#1F2937;
-    color:#F9FAF8;
-    /* font-size: 24px; */
+/* HEADER CSS */
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color:#1F2937;
+  color:var(--main-light);
+  /* font-size: 24px; */
 }
-.logo{
-    font-size: 24px;
-    margin-left: 20px;
+.logo a{
+  color:var(--main-light);
+  text-decoration: none;
 }
 .nav{
-    display:flex;  
+  display:flex;  
 }
-.nav ul{
-    display:flex;
-    gap:20px;
-    margin-right: 20px;
-}
-
-.nav li{
-    list-style: none;
-    font-size: 24px;
-}
-
 .nav a{
-    text-decoration: none;
-    outline-color: transparent;
-    line-height: 3;
-    color:#F9FAF8;
+  display:flex;
+  gap:20px;
+  margin-right: 20px;
+  font-size: 24px;
+  text-decoration: none;
+  color: var(--main-light);
+  padding:10px;
 }
-
+.nav a:hover{
+ background-color: #3882f6;
+ border-radius: 5px;
+ padding:10px;
+  text-decoration: none;
+  color: var(--main-light);
+}
   /*-------- WELCOME SECTION------*/
   #welcome-section{
     padding:50px;
